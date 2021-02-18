@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav__icon">
+            My Portfolio
+        </div>
+        <!-- <nav class="nav__links"> -->
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div> 
+        <!-- </nav> -->
+    </header>
+
+    <!--
+     Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Chetna Lal</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
+        <img class="intro__img" src="images/me.jpg" alt="a picture of Chetna Lal smiling">
+    </section>
+
+    <!-- My services -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About Me</h2>
+        <p class="about__me__desc">
+            Hello reader! </br> My name is Chetna Lal.
+            I am an engineering undergraduate student of Guru Gobind Singh Indraprastha University. During my college years, I’ve done internships, attended workshops and been part of technical societies which has helped me develop a technical skills set and get work experience to build projects and compete in hackathons. Talking about work, I consider myself as a very hardworking and passionate person and I put my 100% in whatever work I do.
+
+        </p>
+        <a href="#work" class="btn about__btn">my resume</a>
+    </section>
+
+    <section class="section__skill" id="section__skill">
+        <h2 class="section__title section__title--skill">My Skills</h2>
+        <div class="skill__list">
+            <div class="skill skill1">
+                <img src="images\html.png" alt="" class="img--skill img--skill1"/>
+                <h3 class="skill-name skill1-name">HTML</h3>
+            </div>
+            <div class="skill skill2">
+                <img src="images\css.png" alt="" class="img--skill img--skill2"/>
+                <h3 class="skill-name skill2-name">CSS</h3>
+            </div>
+            <div class="skill skill3">
+                <img src="images\javascript.png" alt="" class="img--skill img--skill3"/>
+                <h3 class="skill-name skill3-name">Javascript</h3>
+            </div>
+            <div class="skill skill4">
+                <img src="images\react.png" alt="" class="img--skill img--skill4"/>
+                <h3 class="skill-name skill4-name">React</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__project" id="section__project">
+        <h2 class="section__title section__title--project">My Projects</h2>
+        <div class="project__list">
+            <div class="project project1">
+                <h3 class="project-name project-name1">Music Player</h3>
+                <img src="images\image.png" alt="" class="img--project"/>
+                <p class="project--github btn">View on Github</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi architecto est libero inventore vero molestiae porro doloribus. Magni aliquam inventore iure quisquam aut assumenda dignissimos fugit maiores sint nulla! Tempora!</p>
+                <div class="tech-stack__list">
+                    <p class="tech-stack">HTML</p>
+                    <p class="tech-stack">CSS</p>
+                    <p class="tech-stack">Javascript</p>
+                    <p class="tech-stack">React</p>
+                    <p class="tech-stack">HTML</p>
+                    <p class="tech-stack">CSS</p>
+                    <p class="tech-stack">Javascript</p>
+                    <p class="tech-stack">React</p>
+                </div>
+            </div>
+
+            <div class="project project2">
+                <h3 class="project-name project-name1">Music Player</h3>
+                <img src="images\html.png" alt="" class="img--project"/>
+                <p class="project--github btn">View on Github</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi architecto est libero inventore vero molestiae porro doloribus. Magni aliquam inventore iure quisquam aut assumenda dignissimos fugit maiores sint nulla! Tempora!</p>
+                <div class="tech-stack__list">
+                    <p class="tech-stack">HTML</p>
+                    <p class="tech-stack">CSS</p>
+                    <p class="tech-stack">Javascript</p>
+                    <p class="tech-stack">React</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section__title section__title--contact">Contact Me</h2>
+        
+
+    </section>
+
+    <!-- About me -->
+    <!-- <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+        
+        <div class="about-me__body">
+            <p></p>
+            <p></p>
+        </div>
+        
+        <img src="images/about-me-pic.png" alt="Jane leaning against a bus">
+     </section> -->
+     
+     <!-- My Work -->
+     <!-- <section class="my-work" id="work">
+         <h2 class="section__title">My work</h2>
+         <p class="section__subtitle"></p>
+         
+         <div class="portfolio">
+             Portfolio item 01
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-01.png" alt="" class="portfolio__img">
+             </a>
+             
+             Portfolio item 02
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-02.png" alt="" class="portfolio__img">
+             </a>
+             
+             Portfolio item 03
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-03.png" alt="" class="portfolio__img">
+             </a>
+             
+             Portfolio item 04
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-04.png" alt="" class="portfolio__img">
+             </a>
+             
+             Portfolio item 05
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-05.png" alt="" class="portfolio__img">
+             </a>
+             
+             Portfolio item 06
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-06.png" alt="" class="portfolio__img">
+             </a>
+             
+             Portfolio item 07
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-07.png" alt="" class="portfolio__img">
+             </a>
+             
+             Portfolio item 08
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-08.png" alt="" class="portfolio__img">
+             </a>
+             
+             Portfolio item 09
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-09.png" alt="" class="portfolio__img">
+             </a>
+             
+             Portfolio item 0 0
+             <a href="#" class="portfolio__item">
+                 <img src="images/portfolio-10.png" alt="" class="portfolio__img">
+             </a>
+         </div>
+     </section> -->
+
+     <!-- Footer -->
+     <!-- <footer>
+         replace with your own email address
+         <a href="mailto:hello@jane.dev" class="footer__link">hello@jane.dev</a>
+         <ul class="social-list">
+             <li class="social-list__item"><a class="social-list__link" href="https://codepen.io">a</a></li>
+             <li class="social-list__item"><a class="social-list__link" href="http://dribbble.com">b</a></li>
+             <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">c</a></li>
+             <li class="social-list__item"><a class="social-list__link" href="https://github.com">d</a></li>
+         </ul>
+     </footer> -->
+
+     <script src="script.js"></script>
+</body>
+</html>
