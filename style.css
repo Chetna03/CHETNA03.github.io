@@ -145,7 +145,7 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+    display: none;
     /* border: 2px solid red; */
     /* top: 0px; */
     height: 90vh;
