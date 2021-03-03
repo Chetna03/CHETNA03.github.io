@@ -62,10 +62,10 @@ strong {
     font-weight: var(--fw-bolder);
 }
 
-:focus {
+/* :focus {
     outline: 3px solid var(--clr-accent);
     outline-offset: 3px;
-}
+} */
 
 /* Buttons */
 
@@ -80,11 +80,16 @@ strong {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: var(--fw-bolder);
-    transition: transform 200ms ease-in-out;
+    transition: transform 300ms ease;
+    /* border: 2px solid red; */
 }
 
 .btn:hover {
     transform: scale(1.1);
+}
+
+button:focus {
+    outline:0 !important;
 }
 
 /* Typography */
@@ -112,7 +117,10 @@ header{
     background-color: var(--clr-dark);
     height: 10vh;
     align-items: center;
-    
+    /* position: fixed; */
+    /* position: fixed; */
+    /* right: 0px; */
+    /* width: 100%; */
 }
 
 .nav__icon{
@@ -179,6 +187,7 @@ header{
     height: 4vh;
     margin-right: 5%;
     cursor: pointer;
+    
 }
 
 
@@ -201,7 +210,7 @@ header{
 }
 
 .cross .line1{
-    transform: rotate(-45deg) translate(-6px,6px);
+    transform: rotate(-45deg) translate(-10px,2px);
 }
 
 .cross .line2{
@@ -209,7 +218,7 @@ header{
 }
 
 .cross .line3{
-    transform: rotate(45deg) translate(-6px,-6px);
+    transform: rotate(45deg) translate(-11px,-3px);
 }
 
 section{
@@ -406,6 +415,10 @@ section{
     font-family: var(--ff-primary);
     text-transform: uppercase;
     margin: 1em 0px;
+    /* border: 2px solid black; */
+    text-align: center;
+    line-height: 1.2em;
+    letter-spacing: .1em;
 }
 
 .project__list{
@@ -420,6 +433,7 @@ section{
 }
 
 .project{
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -430,7 +444,7 @@ section{
 
 .img--project{
     /* border: 2px solid black; */
-    /* margin: 0px 2em; */
+    margin-bottom: 2em;
     /* padding: 2em; */
     /* min-width: 200px; */
 }
@@ -443,13 +457,14 @@ section{
 .project--github{
     /* border: 2px solid black; */
     /* font-size: var(--fs-h3); */
-    margin: 2em;
+    /* margin: 2em; */
     /* padding: .5em; */
 }
 
 .project-desc{
     /* border: 2px solid black; */
-    margin-bottom: 1em;
+    text-align: center;
+    margin: 2em 0px;
 }
 
 .tech-stack__list{
@@ -482,6 +497,82 @@ section{
     border-radius: 1em;
     /* transition: transform 200ms ease-in-out; */
 }
+
+
+.section__contact{
+    background-color: var(--clr-light);
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-dark);
+}
+
+
+.section__title--contact{
+    color: var(--clr-dark);
+    /* border: 2px solid black; */
+}
+
+.section__title--contact::after{
+    content: '';
+    position: relative;
+    /* border: 1px solid white; */
+    /* left: 0; */
+    display: inline-block;
+    /* margin: 0px auto; */
+    height: .1em;
+    /* left: 1em; */
+    width: 60%;
+    left: 20%;
+    border-bottom: 1px solid var(--clr-dark);
+}
+
+.contact-desc{
+    /* border: 1px solid red; */
+    margin-top: 1em;
+    font-weight: var(--fw-reg);
+}
+
+.contact--details{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    
+}
+
+.contact-icon{
+    /* border: 1px solid purple; */
+    padding: 1em;
+}
+
+.fas{
+    margin-right: 1em;
+    font-size: 1.3rem;
+}
+
+.contact-social-icons{
+    /* border: 1px solid purple; */
+    padding: 1em;
+}
+
+.fab{
+    /* border: 1px solid black; */
+    font-size: 1.9rem;
+    padding: .5em;
+    color: var(--clr-dark);
+}
+
+/* .fa-phone-alt{
+    border: 1px solid black;
+    padding: 1em;
+} */
+
+
+
+
 
 /*  My services section  */
 
